@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Diri</title>
+    <style>
+       body {
+    background-image: url('images/beach1.gif');
+    background-size: 100%,100%; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .container:hover {
+            transform: scale(1.02);
+        }
+
+        header {
+            background: linear-gradient(135deg, #007bff, #00c6ff);
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+            border: 3px solid #007bff;
+            object-fit: contain ;
+        }
+
+        .profile-info {
+            flex: 1;
+        }
+
+        .bio {
+            padding: 20px;
+        }
+
+        .bio h2 {
+            margin: 0;
+            color: #343a40;
+        }
+
+        .bio p {
+            color: #495057;
+            line-height: 1.0;
+        }
+        .about {
+            margin-top: -30px;
+            padding: 5px;
+            background: #f8f9fa;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+        }
+        .social-container {
+            margin-top: -15px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .social-container h3 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .social-icons a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+        }
+        .social-icons img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            transition: 0.3s;
+        }
+        .social-icons img:hover {
+            transform: scale(1.1);
+        }
+
+        @media (max-width: 600px) {
+            .profile {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .profile img {
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Biodata Diri</h1>
+        </header>
+        <div class="profile">
+          <img src="images/foto1.png" alt="Foto Profil">
+            <div class="profile-info">
+                <h2>Nama: Muhammad Tegar Nur Rachma</h2>
+                <p>Umur: 19 Tahun</p>
+                <p>Alamat: Jl. Jagir Sidomukti VI B No.1</p>
+                <p>Email: m.tegarnr@gmail.com</p>
+                <p>Hobi: Explore, Sepak Bola, dan Basket</p>
+            </div>
+        </div>
+        <div class="bio">
+            <div class="about">
+                <h3>Tentang Saya</h3>
+                <p> Saya adalah seseorang yang selalu ingin belajar dan mengeksplorasi hal-hal baru. Dengan semangat petualangan dan rasa ingin tahu yang tinggi, saya sering mencari pengalaman baru dalam berbagai bidang. Saya memiliki ketertarikan dalam teknologi, seni, dan perjalanan, yang membantu saya berkembang baik secara pribadi maupun profesional. Dalam kehidupan sehari-hari, saya percaya bahwa tantangan adalah peluang untuk tumbuh dan terus belajar.</p>
+            </div>
+        </div>
+        <div class="social-container">
+          <h3>Ikuti Saya di Media Sosial</h3>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100091575337181&locale=id_ID" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://www.tiktok.com/@tegar_nr2" target="_blank"><img src="images/tiktok.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/tegar_nr02/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/in/muhammad-tegar-nur-rachma-b1819028b/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+</div>
+</div>
+</div> 
+</body>
+</html>
